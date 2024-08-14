@@ -6,19 +6,12 @@ import React from 'react';
 export default function Home() {
   return (
     <main style={styles.container}>
-      <img src="/pictures/profilepic.ppg" alt="Profile" />
       <h1 style={styles.header}>Ahmed's Portfolio</h1>
       <StudentInfo />
     </main>
   );
 }
-const ProfileComponent = () => {
-  return (
-    <div>
-      <Image src={profilepic} alt="Picture of the author" width={500} height={500} />
-    </div>
-  );
-};
+
 
 const styles = {
   container: {
