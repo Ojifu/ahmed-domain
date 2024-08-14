@@ -2,8 +2,8 @@ export default function StudentInfo(){
     return(
         <div>
             <Name />
-            <Course />
             <Github />
+            <LinkedIn />
         </div>
     );
 }
@@ -13,13 +13,17 @@ function Name(){
     return <p>Ahmed Hijazi</p>;
 }
 
-function Course(){
-    return <p>CPRG 306-B</p>;
-}
 
 function Github(){
     return (<a href="https://github.com/Ojifu/cprg306-assignments">
-        Visit my Github Repo
+        <p>Visit my Github Repo</p>
+    </a>)
+    ;
+}
+
+function LinkedIn(){
+    return (<a href="https://www.linkedin.com/in/ahmed-hijazi49/">
+        Visit my LinkedIn Profile
     </a>)
     ;
 }
