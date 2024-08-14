@@ -6,7 +6,7 @@ import React from 'react';
 export default function Home() {
   return (
     <main style={styles.container}>
-      <h1 style={styles.header}>Ahmed's Portfolio</h1>
+      <h1 style={styles.header}>Ahmed&#39;s Portfolio</h1>
       <StudentInfo />
     </main>
   );
